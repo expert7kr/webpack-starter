@@ -10,5 +10,14 @@ module.exports = {
     devServer: {
         contentBase: __dirname + '/dist',
         port: 3000
+    },
+    module: {
+        rules: [
+            {
+                loader: 'babel-loader',
+                test: /\.js$/,
+                exclude: /node_modules/
+            }
+        ]
     }
 };

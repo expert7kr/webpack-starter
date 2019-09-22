@@ -91,9 +91,10 @@
   !*** ./src/assets/js/app.js ***!
   \******************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("alert('hi!!!');\n\n//# sourceURL=webpack:///./src/assets/js/app.js?");
+"use strict";
+eval("\n\nvar add = function add(a, b) {\n  return a + b;\n};\nvar subtract = function subtract(a, b) {\n  return a - b;\n};\nvar multiply = function multiply(a, b) {\n  return a * b;\n};\nvar divide = function divide(a, b) {\n  return a / b;\n};\n\nconsole.log(add(10, 5));\nconsole.log(subtract(10, 5));\nconsole.log(multiply(10, 5));\nconsole.log(divide(10, 5));\n\n//# sourceURL=webpack:///./src/assets/js/app.js?");
 
 /***/ })
 
