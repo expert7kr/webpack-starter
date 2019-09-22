@@ -1,0 +1,16 @@
+{
+  "name": "webpack_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "bootstrap",
+    "project"
+  ],
+  "author": "expert7kr",
+  "license": "MIT"
+}
